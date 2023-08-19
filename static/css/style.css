@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FAF9F6;
+}
+h1{
+    font-weight: bold;
+}
+h1{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #343541;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red;  */
+    height: 10%;
+}
+.header h1{
+}
+
+.chatsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 85vh;
+}
+
+.chatmessages{
+    display: none;
+    width: 70%;
+    /* background-color: rgb(211, 79, 255); */
+    height: 85%;
+    overflow-y: auto;
+}
+
+.chatmessages::-webkit-scrollbar {
+    display: none;
+  }
+
+.nochatmessages{
+    width: 70%;
+    /* background-color: rgb(211, 79, 255); */
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msginputdiv{
+    /* background-color: coral; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msginput{
+    width: 40%;
+    height: 49px;
+    background-color: #40414f;
+    border: none;
+    outline: none;
+    font-size: large;
+    color: white;
+    padding: 0px 10px;
+}
+
+.sendbtn{
+    background-color: #40414f;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+.my_message{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkseagreen; */
+    background-color: #444654;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.bot_message{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #444654;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>TejAI - Advanced AI Chatbot</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>TejAI - Advanced AI ChatBot</h1>
+        </div>
+
+        <div class="chatsection">
+            
+            <div id="nochatmessages" class="nochatmessages">
+                <h1>Ask bot any question that came to your mind !</h1>
+            </div>
+
+            <div id="chatmessages" class="chatmessages">
+
+                <div class="my_message">
+                    <img style="margin-right: 20px;" height="40px" width="40px" src="https://cdn-icons-png.flaticon.com/512/9187/9187604.png" alt="User logo">
+                    <h4 class="question1" style="color: #fff;"></h4>
+                </div>
+                <div class="bot_message">
+                    <img style="margin-right: 20px;" height="40px" width="40px" src="https://chat.openai.com/favicon.ico" alt="User logo">
+                    <p class="answer1" style="color: #fff;">Loading...</p>
+                         </div>
+        
+            </div>
+
+            <div class="msginputdiv">
+                <input id="msginput" placeholder="Send a message" class="msginput" type="text">
+                <button id="sendbtn" class="sendbtn">SEND</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="/static/js/script.js"></script>
+
+</html>
